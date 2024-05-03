@@ -1,0 +1,50 @@
+header{
+    text-align: center;
+    padding: 3%;
+    text-shadow: 3px 3px 20px whitesmoke;
+}
+body{
+    
+    /* background-image: url("../fondo.jpg"); */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container img{
+    filter: drop-shadow(2px 2px 20px black);
+    padding: 5%;
+}
+
+
+.p {
+    text-shadow: 3px 3px 20px whitesmoke;
+}
+
+footer {
+    text-align: center;
+    padding: 3%;
+    text-shadow: 3px 3px 20px red;
+}
+
+.sombra {
+
+  filter: drop-shadow(5px 5px 10px rgb(71, 71, 71));
+  mix-blend-mode: multiply;
+  
+}
+
+.card {
+    gap: 10%;
+    margin-left: 20%;
+}
+
+.container {
+    display: flex;
+
+}
+
+.item {
+    flex: 1; /* Todas las celdas ocupan el mismo espacio */
+    margin: 1px; /* Espacio entre las celdas */
+  }
