@@ -48,3 +48,8 @@ footer {
     flex: 1; /* Todas las celdas ocupan el mismo espacio */
     margin: 1px; /* Espacio entre las celdas */
   }
+
+.alineacion {
+text-align: right;
+padding-top: 5%;
+}
