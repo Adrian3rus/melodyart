@@ -3,6 +3,7 @@ header{
     padding: 3%;
     text-shadow: 3px 3px 20px whitesmoke;
 }
+
 body{
     
     /* background-image: url("../fondo.jpg"); */
@@ -24,7 +25,8 @@ body{
 footer {
     text-align: center;
     padding: 3%;
-    text-shadow: 3px 3px 20px red;
+    text-shadow: 3px 3px 10px red;
+    gap: 2%;
 }
 
 .sombra {
@@ -52,4 +54,8 @@ footer {
 .alineacion {
 text-align: right;
 padding-top: 5%;
+}
+
+.foot {
+    padding: 2%;
 }
