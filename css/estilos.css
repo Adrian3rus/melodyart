@@ -2,11 +2,20 @@ header{
     text-align: center;
     padding: 3%;
     text-shadow: 3px 3px 20px whitesmoke;
+    /* background-color: red; */
 }
+h1 {
+    padding-top: 2%;
+}
+
+.navbar {
+    box-shadow: 2px 2px 20px;
+}
+
 
 body{
     
-    /* background-image: url("../img/mariposas.jpg"); */
+    background-image: url("../img/mariposas.jpg");
     background-size: cover;
     background-position: center;
     
@@ -25,7 +34,7 @@ body{
 footer {
     text-align: center;
     padding: 3%;
-    text-shadow: 3px 3px 10px red;
+    text-shadow: 3px 3px 10px rgb(148, 144, 144);
     gap: 2%;
 }
 
@@ -39,11 +48,13 @@ footer {
 .card {
     gap: 10%;
     margin-left: 20%;
+    
 }
+
 
 .container {
     display: flex;
-
+    
 }
 
 .item {
@@ -59,3 +70,4 @@ padding-top: 5%;
 .foot {
     padding: 2%;
 }
+
