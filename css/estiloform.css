@@ -1,0 +1,72 @@
+body{
+    
+    background-image: url("../img/mariposas.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header{
+    text-align: center;
+    padding: 3%;
+    text-shadow: 3px 3px 20px whitesmoke;
+    /* background-color: red; */
+}
+
+
+.footer {
+    padding: 2%;
+    text-align: center;
+    margin-top: 20%;
+    
+}
+
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+
+  div + div {
+    margin-top: 1em;
+  }
+
+  label {
+    
+  }
+
+  input,
+  textarea {
+   
+    font: 1em sans-serif;
+    
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    border: 1px solid #999;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  textarea {
+   
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+
+  .button {  
+    padding-left: 90px; 
+  }
+
+  button {
+    
+    margin-left: 0.5em;
+  }
+  
