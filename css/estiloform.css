@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Jersey+15&family=Princess+Sofia&display=swap');
+
+
+
+
 body{
     
     background-image: url("../img/mariposas.jpg");
@@ -10,6 +16,11 @@ header{
     text-align: center;
     padding: 3%;
     text-shadow: 3px 3px 20px whitesmoke;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style:normal ;
+    font-size: large;
     /* background-color: red; */
 }
 
@@ -18,6 +29,9 @@ header{
     padding: 2%;
     text-align: center;
     margin-top: 20%;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
     
 }
 

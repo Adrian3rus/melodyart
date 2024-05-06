@@ -52,6 +52,11 @@ footer {
     padding: 3%;
     text-shadow: 3px 3px 10px rgb(148, 144, 144);
     gap: 2%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style:normal ;
+    font-size: large;
 }
 
 .sombra {
@@ -86,5 +91,8 @@ padding-top: 5%;
 
 .foot {
     padding: 2%;
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
