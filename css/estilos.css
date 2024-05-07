@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Jersey+15&family=Princess+Sofia&display=swap');
 
 
-
+h4 {
+    color: black;
+}
 
 header{
     text-align: center;
