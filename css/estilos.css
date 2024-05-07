@@ -28,12 +28,17 @@ body{
     background-image: url("../img/mariposas.jpg");
     background-size: cover;
     background-position: center;
+    justify-content: center;
+    align-items: center;
+
     
 }
 
 .container img{
-    filter: drop-shadow(2px 2px 20px black);
+    filter: drop-shadow(1px 1px 15px rgb(236, 154, 154));
     padding: 5%;
+    mask-image: linear-gradient( rgb(255, 249, 249) 70%, transparent);
+    
 }
 
 
@@ -48,16 +53,14 @@ h2 {
 }
 
 footer {
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0; /* Espacio interno para el contenido del footer */
     text-align: center;
-    padding: 3%;
-    text-shadow: 3px 3px 10px rgb(148, 144, 144);
-    gap: 2%;
     font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style:normal ;
-    font-size: large;
 }
+
 
 .sombra {
 
@@ -95,4 +98,21 @@ padding-top: 5%;
     font-weight: 400;
     font-style: normal;
 }
+
+#page {
+    position: relative;
+    transition: 1s all ease-in-out;
+}
+
+#page.menuopen {
+    opacity: 0.6;
+    filter: blur(20px);
+    transform: scale(1.2);
+}
+
+img {
+    mask-image: linear-gradient( rgb(255, 249, 249) 70%, transparent);
+}
+
+
 
